@@ -1,4 +1,4 @@
-FROM ubuntu:16.04
+FROM ubuntu:latest
 
 RUN apt-get update
 RUN apt-get install wget openssh-server -y
